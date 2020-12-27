@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\bin\Debug\netcoreapp3.1\TesteCondicionais.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteCondicionais\obj\Debug\netcoreapp3.1\TesteCondicionais.genruntimeconfig.cache

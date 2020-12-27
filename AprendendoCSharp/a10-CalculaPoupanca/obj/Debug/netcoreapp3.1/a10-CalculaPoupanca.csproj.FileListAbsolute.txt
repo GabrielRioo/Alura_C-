@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\bin\Debug\netcoreapp3.1\a10-CalculaPoupanca.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a10-CalculaPoupanca\obj\Debug\netcoreapp3.1\a10-CalculaPoupanca.genruntimeconfig.cache

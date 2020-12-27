@@ -6,21 +6,22 @@ namespace _9_Escopo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escutando projeto 8 - Condicionais");
+            Console.WriteLine("Escutando projeto 9 - Escopo");
 
-            int idadeJoao = 16;
-            //int quantidadePessoas = 2;
-
+            int idadeJoao = 19;
             bool acompanhado = true;
+            string mensagemAdicional;
+
+            if (acompanhado == true)
+                mensagemAdicional = "Joao está acompanhado!";
+            else
+                mensagemAdicional = "João nao está acompanhado";
+
 
             if (idadeJoao >= 18 || acompanhado == true)
-            {
-                Console.WriteLine(@"Joao pode entrar!");
-            }
+                Console.WriteLine(@"Joao pode entrar! {0}", mensagemAdicional);
             else
-            {
-                Console.WriteLine(@"Joao nao pode entrar");
-            }
+                Console.WriteLine(@"Joao nao pode entrar! {0}", mensagemAdicional);
         }
     }
 }

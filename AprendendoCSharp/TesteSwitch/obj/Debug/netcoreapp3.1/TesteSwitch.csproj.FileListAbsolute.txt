@@ -1,0 +1,12 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\bin\Debug\netcoreapp3.1\TesteSwitch.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteSwitch\obj\Debug\netcoreapp3.1\TesteSwitch.genruntimeconfig.cache

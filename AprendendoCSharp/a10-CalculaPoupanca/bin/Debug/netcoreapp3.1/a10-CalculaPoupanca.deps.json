@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "a10-CalculaPoupanca/1.0.0": {
+        "runtime": {
+          "a10-CalculaPoupanca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "a10-CalculaPoupanca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
