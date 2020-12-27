@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\netcoreapp3.1\3-CriandoVariaveisPontoFlutuante.genruntimeconfig.cache
