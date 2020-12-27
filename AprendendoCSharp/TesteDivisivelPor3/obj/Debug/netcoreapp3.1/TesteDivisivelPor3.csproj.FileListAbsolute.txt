@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\bin\Debug\netcoreapp3.1\TesteDivisivelPor3.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteDivisivelPor3\obj\Debug\netcoreapp3.1\TesteDivisivelPor3.csprojAssemblyReference.cache

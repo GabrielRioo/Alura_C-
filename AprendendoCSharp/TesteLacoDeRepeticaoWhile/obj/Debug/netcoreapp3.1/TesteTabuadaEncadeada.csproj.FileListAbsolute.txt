@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\bin\Debug\netcoreapp3.1\TesteTabuadaEncadeada.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteLacoDeRepeticaoWhile\obj\Debug\netcoreapp3.1\TesteTabuadaEncadeada.genruntimeconfig.cache
