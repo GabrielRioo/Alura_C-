@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\bin\Debug\netcoreapp3.1\1-PrimeiroProjeto.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\1-PrimeiroProjeto\obj\Debug\netcoreapp3.1\1-PrimeiroProjeto.genruntimeconfig.cache
