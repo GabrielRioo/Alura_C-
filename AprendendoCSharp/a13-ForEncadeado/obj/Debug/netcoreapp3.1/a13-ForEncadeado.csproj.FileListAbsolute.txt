@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\bin\Debug\netcoreapp3.1\a13-ForEncadeado.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a13-ForEncadeado\obj\Debug\netcoreapp3.1\a13-ForEncadeado.genruntimeconfig.cache

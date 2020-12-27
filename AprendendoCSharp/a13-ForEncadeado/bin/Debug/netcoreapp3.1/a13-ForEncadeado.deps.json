@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "a13-ForEncadeado/1.0.0": {
+        "runtime": {
+          "a13-ForEncadeado.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "a13-ForEncadeado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
