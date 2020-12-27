@@ -1,0 +1,12 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\bin\Debug\netcoreapp3.1\TesteWhileEmFor.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\TesteWhileEmFor\obj\Debug\netcoreapp3.1\TesteWhileEmFor.genruntimeconfig.cache

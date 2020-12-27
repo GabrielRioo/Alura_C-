@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "a12-CalculaInvestimentoLongoPrazo/1.0.0": {
+        "runtime": {
+          "a12-CalculaInvestimentoLongoPrazo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "a12-CalculaInvestimentoLongoPrazo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

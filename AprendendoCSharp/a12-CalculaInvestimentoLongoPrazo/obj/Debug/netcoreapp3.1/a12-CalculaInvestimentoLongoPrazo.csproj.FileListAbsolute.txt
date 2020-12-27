@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\bin\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\a12-CalculaInvestimentoLongoPrazo\obj\Debug\netcoreapp3.1\a12-CalculaInvestimentoLongoPrazo.genruntimeconfig.cache
