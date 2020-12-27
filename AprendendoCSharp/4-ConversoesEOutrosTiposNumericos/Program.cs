@@ -13,6 +13,12 @@ namespace _4_ConversoesEOutrosTiposNumericos
             int salarioEmInteiro = (int)salario; //  cast
 
             Console.WriteLine(salarioEmInteiro);
+
+            long idade = 1300000000000;
+
+            short quantidadeProdutos = 20000;
+
+            float altura = 1.80f;
         }
     }
 }
