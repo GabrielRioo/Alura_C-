@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\bin\Debug\netcoreapp3.1\TesteFatorial.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 1 - Primeiros Passos\TesteFatorial\obj\Debug\netcoreapp3.1\TesteFatorial.genruntimeconfig.cache
