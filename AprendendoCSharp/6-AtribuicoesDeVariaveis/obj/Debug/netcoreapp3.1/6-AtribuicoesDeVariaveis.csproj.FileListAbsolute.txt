@@ -1,0 +1,12 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\netcoreapp3.1\6-AtribuicoesDeVariaveis.genruntimeconfig.cache
