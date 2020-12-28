@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\bin\Debug\netcoreapp3.1\02-ByteBank.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\02-ByteBank\obj\Debug\netcoreapp3.1\02-ByteBank.genruntimeconfig.cache
