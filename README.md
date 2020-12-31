@@ -8,6 +8,10 @@
    * Executar: `MeuPrimeiroPrograma.exe`
    * Irá rodar o programa e aparecer no Prompt
    
+* DICAS:
+   * **Return:** Após o return de uma condição, tudo que vem abaixo nao é executado
+   * Sempre por a condição que pod falhar primeiro.
+   
 * OBJETO:
    * Com uma classe, tem a possibilidade de representa-la em diversas partes do codigo
    * O valo padrão pode ser alterado, atribuindo um valor a variavel de uma classe:
