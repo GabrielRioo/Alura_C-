@@ -10,3 +10,4 @@ C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\03-Byt
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\03-ByteBank\obj\Debug\netcoreapp3.1\03-ByteBank.dll
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\03-ByteBank\obj\Debug\netcoreapp3.1\03-ByteBank.pdb
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\03-ByteBank\obj\Debug\netcoreapp3.1\03-ByteBank.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 2 - Orientacao a Objetos\ByteBank\03-ByteBank\obj\Debug\netcoreapp3.1\03-ByteBank.csprojAssemblyReference.cache
