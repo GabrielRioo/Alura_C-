@@ -11,6 +11,11 @@
 * DICAS:
    * **Return:** Após o return de uma condição, tudo que vem abaixo nao é executado
    * Sempre por a condição que pod falhar primeiro.
+   * Valor Padrão:
+      * int = 0
+      * Tipo de referencia `public Cliente titular` = null
+   * Ao utilizar o `_saldo` underline antes do campo, quer dizer que ela é privada e pertence somente aquela classe.
+   * Por padrão um construtor `public int Cliente { get; set; }` cria um metodo privado por tras.
    
 * OBJETO:
    * Com uma classe, tem a possibilidade de representa-la em diversas partes do codigo
