@@ -3,7 +3,7 @@
 
 namespace _05_ByteBank
 {
-    public class ContaCorrente
+     public class ContaCorrente
     {
         public Cliente titular;
         public int agencia;
