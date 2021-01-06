@@ -24,6 +24,11 @@ namespace ByteBank
             camila.CPF = "123.123.123-32";
             camila.Salario = 4000;
 
+            Funcionario camilaTeste = camila;
+
+            Console.WriteLine("Bonificação Diretor: " + camila.GetBonificacao());
+            Console.WriteLine("Bonificação Funcionario: " + camilaTeste.GetBonificacao());
+
             gerenciador.Registrar(camila);
 
             Console.WriteLine(gabriel.Nome);
