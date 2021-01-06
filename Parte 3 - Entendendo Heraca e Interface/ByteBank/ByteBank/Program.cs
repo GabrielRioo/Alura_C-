@@ -11,18 +11,22 @@ namespace ByteBank
 
 
 
-            Funcionario gabriel = new Funcionario();
+            Funcionario gabriel = new Funcionario("123.123.123-12");
 
             gabriel.Nome = "Gabriel";
-            gabriel.CPF = "123.123.123-12";
+            //gabriel.CPF = "123.123.123-12";
             gabriel.Salario = 2000;
+
+            Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
             gerenciador.Registrar(gabriel);
 
-            Diretor camila = new Diretor();
+            Diretor camila = new Diretor("123.123.123-32");
             camila.Nome = "Camila";
-            camila.CPF = "123.123.123-32";
+            //camila.CPF = "123.123.123-32";
             camila.Salario = 4000;
+
+            Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
             Funcionario camilaTeste = camila;
 
