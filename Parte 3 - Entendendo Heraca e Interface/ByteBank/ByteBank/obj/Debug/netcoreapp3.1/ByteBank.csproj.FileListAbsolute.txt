@@ -1,0 +1,13 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 3 - Entendendo Heraca e Interface\ByteBank\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.genruntimeconfig.cache
