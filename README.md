@@ -25,6 +25,10 @@
    * **StackOverflow**: Quando estoura a pilha de memoria guardada pelo programa.
    * **base.** : chama o metodo base  `return Salario + base.GetBonificacao();` 
    * O Construtor da classe base sempre será executado antes do contrutor da classe derivada
+   * Não é possivel instanciar um método de instancia a partir de um metodo static. Solução:
+      * Tornar o metodo de instancia em static: `public static void Calcular(){}` <-> **Mais usual**
+      * Criar uma nova isntancia do class: `Program programa = new Program(); programa.CalcularBonificacao();`
+   * Metodos abstrados só podem pertencer a classes abstratas
    
    
 * OBJETO:
@@ -37,3 +41,11 @@
    * `Private`: Visível apenas dentro da classe.
    * `Protected`: Acessivel tanto pela classe base quanto de suas derivadas (relacionado com a herança)
    * `Public`: Visivel em todo lugar.
+   * `abstract`: Não permite instanciar um objeto da classe abstrata
+      * As classes derivadas devem SEMPRE sobrescrever **metodos** abastrados
+      * Metodos abstrados só podem pertencer a classes abstratas
+      * Se nao quiser implementar os metodos abstrados em uma classe concreta, mudar a visualização dela para `public abstract class`
+   * `interface`: Permite que tenha herança multipla. `public interface Carro { }`
+      * **Ordem de Herança Multipla**: Classe, interface
+      * Nunca pode ter a implementação de um método. `void AbrirPorta(); `
+      * Todos seus membros ja são publicos
