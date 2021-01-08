@@ -45,3 +45,7 @@
       * As classes derivadas devem SEMPRE sobrescrever **metodos** abastrados
       * Metodos abstrados só podem pertencer a classes abstratas
       * Se nao quiser implementar os metodos abstrados em uma classe concreta, mudar a visualização dela para `public abstract class`
+   * `interface`: Permite que tenha herança multipla. `public interface Carro { }`
+      * **Ordem de Herança Multipla**: Classe, interface
+      * Nunca pode ter a implementação de um método. `void AbrirPorta(); `
+      * Todos seus membros ja são publicos
