@@ -1,0 +1,7 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 4 - Entenendo Excecoes\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.pdb
