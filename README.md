@@ -50,3 +50,9 @@
       * **Ordem de Herança Multipla**: Classe, interface
       * Nunca pode ter a implementação de um método. `void AbrirPorta(); `
       * Todos seus membros ja são publicos
+   * `Try/Catch`: 
+      * `throw`: passa adiante. Quando posto no catch, funciona como um "continue"
+         * Util se o metodo retornar um inteiro, e nao precisar retornar -1
+      * Pode ter mais de um catch, porém tem que ser antes da classe Exception
+         * Classes de exceções chamadas antes da classe exception,, nao serão compilados
+         
