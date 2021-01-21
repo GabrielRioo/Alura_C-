@@ -1,0 +1,9 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Rest AspNet Core\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
