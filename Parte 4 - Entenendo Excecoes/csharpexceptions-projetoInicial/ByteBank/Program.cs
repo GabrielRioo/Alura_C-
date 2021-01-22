@@ -10,20 +10,30 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            //ContaCorrente conta = new ContaCorrente(7480, 874150);
+            try
+            {
+                ContaCorrente conta = new ContaCorrente(0,0);
+            }
+            catch (ArgumentException ex)
+            {
+                if (ex.ParamName == "numero")
+                {
+
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             //Console.WriteLine(ContaCorrente.TaxaOperacao);
             try
             {
                 Metodo();
             }
-            catch(NullReferenceException erro)
+            catch (Exception e)
             {
-                Console.WriteLine(erro.Message);
-            }
-            catch (Exception erro)
-            {
-                Console.WriteLine(erro.Message);
-                Console.WriteLine(erro.StackTrace);
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
                 Console.WriteLine("Aconteceu um erro!");
             }
             
@@ -41,8 +51,15 @@ namespace ByteBank
 
         private static void TestaDivisao(int divisor)
         {
+            //try
+            //{
                 int resultado = Dividir(10, divisor);
+
+            //}
+            //catch (Exception)
+            //{
                 Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
+            //}
         }
 
         private static int Dividir(int numero, int divisor)
