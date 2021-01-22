@@ -55,4 +55,9 @@
          * Util se o metodo retornar um inteiro, e nao precisar retornar -1
       * Pode ter mais de um catch, porém tem que ser antes da classe Exception
          * Classes de exceções chamadas antes da classe exception,, nao serão compilados
+   * `Readonly`:
+      * Somento o contrutor consegue atribuir um valor
+      * `private readonly int _numero;`
+      * **Forma simplificada** - `public int Numero { get; }`
+   * `ArgumentException`:
          
