@@ -60,4 +60,6 @@
       * `private readonly int _numero;`
       * **Forma simplificada** - `public int Numero { get; }`
    * `ArgumentException`:
-         
+      * `Console.WriteLine("Argumento com problema: " + ex.ParamName`: designa a variavel que irá aparecer.
+         * `throw new ArgumentException("O argumento com problema é o: " + nameof(nomeParametro))`
+            * `nameof(nomeParametro)`: operador do c#
