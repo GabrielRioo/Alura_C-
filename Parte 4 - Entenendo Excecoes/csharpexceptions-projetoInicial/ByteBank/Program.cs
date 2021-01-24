@@ -12,58 +12,29 @@ namespace ByteBank
         {
             try
             {
-                ContaCorrente conta = new ContaCorrente(456,456789);
-                ContaCorrente conta2 = new ContaCorrente(453, 456783);
+                ContaCorrente conta1 = new ContaCorrente(456,456789);
+                ContaCorrente conta2 = new ContaCorrente(789,456123);
 
-                conta2.Transferir(-10, conta);
-
-                conta.Depositar(50);
-                Console.WriteLine(conta.Saldo);
-                conta.Sacar(-500);
-                Console.WriteLine(conta.Saldo);
+                //conta1.Transferir(10000, conta2);
+                conta1.Sacar(10000);
             }
-            catch (ArgumentException ex)
-            {
-                if (ex.ParamName == "numero")
-                {
-
-                }
-                Console.WriteLine("Argumento com problema: " + ex.ParamName);
-                Console.WriteLine(ex.Message);
-            }
-            catch(SaldoInsuficienteException ex)
+            catch (OperacaoFinanceiraException ex)
             {
                 Console.WriteLine(ex.Message);
-                Console.WriteLine("Exceção do tipo Saldo Insuficiente Exception");
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            //Console.WriteLine(ContaCorrente.TaxaOperacao);
-            try
-            {
-                Metodo();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                //Console.WriteLine(e.StackTrace);
-                Console.WriteLine("Aconteceu um erro!");
-            }
-            
+                Console.WriteLine(ex.StackTrace);
+
+                Console.WriteLine("InnerException: ");
+                Console.WriteLine(ex.InnerException.Message);
+                Console.WriteLine(ex.InnerException.StackTrace);
+            }   
             Console.ReadLine();
-            
         }
-
-        
 
         private static void Metodo()
         {
                 TestaDivisao(0);
                 //TestaDivisao(2);
         }
-
         private static void TestaDivisao(int divisor)
         {
             //try
@@ -76,7 +47,6 @@ namespace ByteBank
                 Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
             //}
         }
-
         private static int Dividir(int numero, int divisor)
         {
             try
