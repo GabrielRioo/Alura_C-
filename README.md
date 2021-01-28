@@ -74,3 +74,7 @@
       * Liberar os recursos do objeto criado
       * `using (LeitorDeArquivos leitor = new LeitorDeArquivos("teste.txt"))`
          * Necessário implementar a interface `IDisposeble` na classe.
+         
+    * `internal`: classes internas funcionam  para outras classes e somente dentro do projeto em que esta. Sao visiveis somente na biblioteca
+       * `internal class ...`
+       *  Quando nao declara nenhum modificador de acesso, por padrão é internal
