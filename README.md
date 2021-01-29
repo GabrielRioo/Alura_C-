@@ -63,3 +63,18 @@
       * `Console.WriteLine("Argumento com problema: " + ex.ParamName`: designa a variavel que irá aparecer.
          * `throw new ArgumentException("O argumento com problema é o: " + nameof(nomeParametro))`
             * `nameof(nomeParametro)`: operador do c#
+   * Criando uma Exceção:
+      * Sempre por o sufixo: `Exception`
+      * Sempre criar os 3 contrutores:
+         * Sem parametro
+         * Com a mensagem
+         * Mensagem + Exception variavel
+   * `Finally`: Ocorre **sempre**, tanto depois do catch quanto do try.
+   * `using()`: chama por baixo dos panos o metodo `try finally` e verifica se a referencia(objeto) é nulo
+      * Liberar os recursos do objeto criado
+      * `using (LeitorDeArquivos leitor = new LeitorDeArquivos("teste.txt"))`
+         * Necessário implementar a interface `IDisposeble` na classe.
+         
+    * `internal`: classes internas funcionam  para outras classes e somente dentro do projeto em que esta. Sao visiveis somente na biblioteca
+       * `internal class ...`
+       *  Quando nao declara nenhum modificador de acesso, por padrão é internal
