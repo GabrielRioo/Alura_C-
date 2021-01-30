@@ -78,3 +78,7 @@
     * `internal`: classes internas funcionam  para outras classes e somente dentro do projeto em que esta. Sao visiveis somente na biblioteca
        * `internal class ...`
        *  Quando nao declara nenhum modificador de acesso, por padrão é internal
+       
+    * `internal protected`: Visivel dentro do projeto e qualquer classe que deriva dessa classe (mesmo em outro peojeto)
+        * Os métodos que irão sobreescrever nao devem possuir o internal
+           * `protected override double Metodo()`
