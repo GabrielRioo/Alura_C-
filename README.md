@@ -82,3 +82,8 @@
     * `internal protected`: Visivel dentro do projeto e qualquer classe que deriva dessa classe (mesmo em outro peojeto)
         * Os métodos que irão sobreescrever nao devem possuir o internal
            * `protected override double Metodo()`
+           
+    * Como Criar Bibliotecas Estaveis:
+       * Ao criar um projeto e compilar, o Visual Studio gera dentro da pasta Bin, uma dll instavel, pois sempre ao compilar, ela é modificada
+       * Copiar essa dll e colar em uma pasta separada para que ela possa ser estavel
+       * No novo projeto, adiconar referencia e procurar a nova pasta com a dll
