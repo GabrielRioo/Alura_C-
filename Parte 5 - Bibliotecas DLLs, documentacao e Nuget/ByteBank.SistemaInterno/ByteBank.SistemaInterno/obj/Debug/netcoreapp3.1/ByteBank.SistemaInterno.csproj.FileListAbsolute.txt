@@ -13,3 +13,7 @@ C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nug
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\netcoreapp3.1\ByteBank.SistemaInterno.dll
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\netcoreapp3.1\ByteBank.SistemaInterno.pdb
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\netcoreapp3.1\ByteBank.SistemaInterno.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\netcoreapp3.1\ByteBank.Modelos.xml
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\netcoreapp3.1\Humanizer.xml
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 5 - Bibliotecas DLLs, documentacao e Nuget\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\netcoreapp3.1\pt\Humanizer.resources.dll

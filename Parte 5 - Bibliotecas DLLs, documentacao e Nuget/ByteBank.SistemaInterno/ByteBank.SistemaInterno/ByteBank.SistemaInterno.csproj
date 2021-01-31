@@ -9,6 +9,9 @@
     <Reference Include="ByteBank.Modelos">
       <HintPath>..\..\Bibliotecas\ByteBank.Modelos.dll</HintPath>
     </Reference>
+    <Reference Include="Humanizer">
+      <HintPath>..\..\Bibliotecas\Humanizer.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
