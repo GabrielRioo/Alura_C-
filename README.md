@@ -99,3 +99,7 @@
           * Clicar com botão direito no projeto -> propriedades -> Build/Compilação -> Habilitar: Arquivo de Documentação XML
           * Recompilar projeto, ir na pasta bin e copiar o arquivo XML 
           * Passar o arquivo XML para pasta de bibliotecas e reabrir a nova solução.
+          
+    * `TimeSpan`: Intervalo de tempo
+    * `.IndexOf('?')` : pega o indice do caracter especificado.
+    * `.Substring(7)` : caracteres a partir de tal posição, inclusive
