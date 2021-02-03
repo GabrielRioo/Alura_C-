@@ -87,3 +87,19 @@
        * Ao criar um projeto e compilar, o Visual Studio gera dentro da pasta Bin, uma dll instavel, pois sempre ao compilar, ela é modificada
        * Copiar essa dll e colar em uma pasta separada para que ela possa ser estavel
        * No novo projeto, adiconar referencia e procurar a nova pasta com a dll
+
+    * Documentando Metodos e Classes:
+       * `///` - tudo que estiver entre o `/// <sumary>` será descrito ao passar o mouse por cima da instancia
+       * `<summary>` : Documentação para classe
+       * `<see cref="">` : Funciona com propriedades, classe...
+       * `<exception cref="NomeExceção">` Documentação para as exceções
+       * `param name=""`: Documentação para o parametro
+       * `paramref name=""`: Referencia para o valor do parametro
+       * Para a documentação ser "vista" em outros projetos por meio de referencia:
+          * Clicar com botão direito no projeto -> propriedades -> Build/Compilação -> Habilitar: Arquivo de Documentação XML
+          * Recompilar projeto, ir na pasta bin e copiar o arquivo XML 
+          * Passar o arquivo XML para pasta de bibliotecas e reabrir a nova solução.
+          
+    * `TimeSpan`: Intervalo de tempo
+    * `.IndexOf('?')` : pega o indice do caracter especificado.
+    * `.Substring(7)` : caracteres a partir de tal posição, inclusive
