@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.8.26" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ByteBank.Modelos">
       <HintPath>..\..\Bibliotecas\ByteBank.Modelos.dll</HintPath>
     </Reference>
