@@ -103,3 +103,6 @@
     * `TimeSpan`: Intervalo de tempo
     * `.IndexOf('?')` : pega o indice do caracter especificado.
     * `.Substring(7)` : caracteres a partir de tal posição, inclusive
+    * `.Replace('r', 'R')` : substitui o primeiro caracter pelo segundo
+    * `.ToUpper()` : Deixa toda string/char em maiusculo
+    * `ToLower()` : Deixa tudo em minusculo
