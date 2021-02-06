@@ -38,7 +38,7 @@ namespace ByteBank.SistemaAgencia
             string termo = nomeParametro + "=";
             int indiceTermo = argumentoEmCaixaAlta.IndexOf(termo);
 
-            string resultado = argumentoEmCaixaAlta.Substring(indiceTermo + termo.Length);
+            string resultado = _argumentos.Substring(indiceTermo + termo.Length);
             int indiceEComercial = resultado.IndexOf('&');
 
             if (indiceEComercial == -1)
