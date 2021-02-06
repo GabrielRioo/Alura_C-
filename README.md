@@ -101,8 +101,16 @@
           * Passar o arquivo XML para pasta de bibliotecas e reabrir a nova solução.
           
     * `TimeSpan`: Intervalo de tempo
-    * `.IndexOf('?')` : pega o indice do caracter especificado.
+    * `.IndexOf('?')` : pega o indice do caracter especificado. Quando nao encontra o char, retorna -1
     * `.Substring(7)` : caracteres a partir de tal posição, inclusive
     * `.Replace('r', 'R')` : substitui o primeiro caracter pelo segundo
     * `.ToUpper()` : Deixa toda string/char em maiusculo
     * `ToLower()` : Deixa tudo em minusculo
+    * `.StartsWith("string")` : String começa com...
+    * `.EndsWith("string")` : String termina com...
+    * `.Contains("string")` : Se contem a string digitada
+    * `Regex.Match(texto, padrao)`: Verifica e retorna o valor especificado.
+       * texto: Me ligue no telefone 4002-8922
+       * padrao: `"[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]"`
+       * regex: `[0123456789] &[a-z]` & `[0-9]` & `[0-9]{4}` = 4 vezes
+       * `IsMatch()` - retorna se é true ou false
