@@ -29,6 +29,14 @@
       * Tornar o metodo de instancia em static: `public static void Calcular(){}` <-> **Mais usual**
       * Criar uma nova instancia do class: `Program programa = new Program(); programa.CalcularBonificacao();`
    * Metodos abstrados só podem pertencer a classes abstratas
+   * `object`: 
+      * Quando uma classe nao esta herdando nada, ela deriva de `object`.
+   * `Concatenação de String`:
+      * `$"Numero: {Numero}, Agencia {Agencia}, Saldo {Saldo}";`
+      * `"Numero: " + Numero + " Agencia " + Agencia + ", Saldo " + Saldo`
+   * `Conversão`
+      * `Explicita`: (Cliente)obj - Lança uma exceção
+      * `Cast`: obj as Cliente - retorna null quando o cast nao e feito com sucesso
    
    
 * OBJETO:
