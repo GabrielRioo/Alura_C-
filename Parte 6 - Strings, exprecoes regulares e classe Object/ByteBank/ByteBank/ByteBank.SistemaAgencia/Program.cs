@@ -13,6 +13,41 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            Cliente carlos1 = new Cliente();
+            carlos1.Nome = "Carlos";
+            carlos1.CPF = "45678912345";
+            carlos1.Profissao = "Designer";
+
+            Cliente carlos2 = new Cliente();
+            carlos2.Nome = "Carlos";
+            carlos2.CPF = "45678912345";
+            carlos2.Profissao = "Designer";
+
+            if (carlos1.Equals(carlos2))
+            {
+                Console.WriteLine("São iguais!");
+            }
+            else
+            {
+                Console.WriteLine("Não são iguais!");
+            }
+
+            Console.ReadLine();
+
+
+
+            object conta = new ContaCorrente(456, 123456);
+
+            string contaToString = conta.ToString();
+            Console.WriteLine(contaToString);
+            Console.ReadLine();
+
+
+
+
+
+
+
             //string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
             //string padrao = "[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]";
             //string padrao = "[0-9]{4,5}[-]{0,1}[0-9]{4}"; // O {} se chama quantificador
