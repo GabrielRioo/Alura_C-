@@ -37,6 +37,8 @@
    * `Conversão`
       * `Explicita`: (Cliente)obj - Lança uma exceção
       * `Cast`: obj as Cliente - retorna null quando o cast nao e feito com sucesso
+   * `Array`: O valor padrao de um array é 0;
+      * `int[] idades = new int[5]` - é necessário informar o tamanho do array
    
    
 * OBJETO:
