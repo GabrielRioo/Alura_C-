@@ -39,6 +39,12 @@
       * `Cast`: obj as Cliente - retorna null quando o cast nao e feito com sucesso
    * `Array`: O valor padrao de um array é 0;
       * `int[] idades = new int[5]` - é necessário informar o tamanho do array
+         * `contas[0] = new ContaCorrente(845, 456789);`
+      * Outra maneira: 
+         * `ContaCorrente[] contas = new ContaCorrente[] {` `new ContaCorrente(845, 456789), new ContaCorrente(845, 794567) }`
+   * Parametros nao obrigatorios:
+      * `ListaDeContas lista = new ListaDeContas(int saldo = 100)` - ja inicializando o argumento 
+      * Para alterar metodos com dois parametros opcionais: `lista.MeuMetodo(saldo: 200)`
    
    
 * OBJETO:
