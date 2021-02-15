@@ -42,6 +42,9 @@
          * `contas[0] = new ContaCorrente(845, 456789);`
       * Outra maneira: 
          * `ContaCorrente[] contas = new ContaCorrente[] {` `new ContaCorrente(845, 456789), new ContaCorrente(845, 794567) }`
+   * Parametros nao obrigatorios:
+      * `ListaDeContas lista = new ListaDeContas(int saldo = 100)` - ja inicializando o argumento 
+      * Para alterar metodos com dois parametros opcionais: `lista.MeuMetodo(saldo: 200)`
    
    
 * OBJETO:
