@@ -45,7 +45,8 @@
    * Parametros nao obrigatorios:
       * `ListaDeContas lista = new ListaDeContas(int saldo = 100)` - ja inicializando o argumento 
       * Para alterar metodos com dois parametros opcionais: `lista.MeuMetodo(saldo: 200)`
-   
+   * `Indexador`:
+      * `public ContaCorrente this[int indice] { get { return null } }`
    
 * OBJETO:
    * Com uma classe, tem a possibilidade de representa-la em diversas partes do codigo
