@@ -106,13 +106,13 @@ namespace ByteBank.SistemaAgencia
             _itens = novoArray;
         }
 
-        public ContaCorrente this[string texto]
-        {
-            get
-            {
-                return null;
-            }
-        }
+        //public ContaCorrente this[string texto]
+        //{
+        //    get
+        //    {
+        //        return null;
+        //    }
+        //}
 
         public ContaCorrente this[int indice] // indexador
         {
