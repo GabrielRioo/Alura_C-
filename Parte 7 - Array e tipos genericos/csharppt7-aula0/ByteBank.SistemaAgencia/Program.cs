@@ -12,24 +12,36 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(SomarVarios(1, 2, 3, 4, 5, 6) );
+
+            
+
+            Console.ReadLine();
+        }
+
+        static void TestaContaCorrente()
+        {
             ListaDeContaCorrente lista = new ListaDeContaCorrente();
             ContaCorrente contaDoGabs = new ContaCorrente(111, 11111111);
 
             lista.Adicionar(contaDoGabs);
 
-            lista.Adicionar(new ContaCorrente(845, 456789));
-            lista.Adicionar(new ContaCorrente(845, 456788));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
-            lista.Adicionar(new ContaCorrente(845, 456787));
+            //lista.Adicionar(new ContaCorrente(845, 456789));
+            //lista.Adicionar(new ContaCorrente(845, 456788));
+
+            ContaCorrente[] contas = new ContaCorrente[]
+            {
+                contaDoGabs,
+                new ContaCorrente(845, 456789),
+                new ContaCorrente(845, 456788)
+            };
+            //lista.Adicionar(contas);
+            lista.AdicionarVarios(
+                contaDoGabs,
+                new ContaCorrente(845, 456789),
+                new ContaCorrente(845, 456788)
+                );
 
             for (int i = 0; i < lista.Tamanho; i++)
             {
@@ -48,7 +60,7 @@ namespace ByteBank.SistemaAgencia
 
             Console.ReadLine();
 
-            ContaCorrente[] contas = new ContaCorrente[] {
+            ContaCorrente[] contas2 = new ContaCorrente[] {
                 new ContaCorrente(845, 456789),
                 new ContaCorrente(845, 794567),
                 new ContaCorrente(845, 461234)
@@ -59,10 +71,16 @@ namespace ByteBank.SistemaAgencia
                 ContaCorrente contaAtual = contas[indice];
                 Console.WriteLine($"Conta {indice} {contaAtual.Numero}"); // $ = interpolaçao
             }
-
-            Console.ReadLine();
         }
-
+        static int SomarVarios(params int[] numeros)
+        {
+            int acumulador = 0;
+            foreach (var numero in numeros)
+            {
+                acumulador += numero;
+            }
+            return acumulador;
+        }
         static void TestaArrayInt()
         {
             //Array de inteiros com 5 posições
