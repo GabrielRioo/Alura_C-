@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank.SistemaAgencia
 {
-    public class Lista<T>
+    public class ListaDeContaCorrente
     {
-        private T[] _itens;
+        private ContaCorrente[] _itens;
         private int _proximaPosicao;
 
         public int Tamanho
@@ -19,42 +20,28 @@ namespace ByteBank.SistemaAgencia
             }
         }
 
-        public Lista(int capacidadeInicial = 5)
+        public ListaDeContaCorrente(int capacidadeInicial = 5)
         {
-            _itens = new T[capacidadeInicial];
+            _itens = new ContaCorrente[capacidadeInicial];
             _proximaPosicao = 0;
         }
 
-        public void MeuMetodo(string texto = "texti padrao", int numero = 5)
-        {
-
-        }
-
-        public void Adicionar(T item)
+        public void Adicionar(ContaCorrente item)
         {
             VerificarCapacidade(_proximaPosicao + 1);
 
-            // Console.WriteLine($"Adicionando item na posição {_proximaPosicao}");
-
+            //Console.WriteLine($"Adicionando item na posição: {_proximaPosicao}");
             _itens[_proximaPosicao] = item;
             _proximaPosicao++;
         }
 
-        public void AdicionarVarios(params T[] itens)
-        {
-            foreach (T item in itens)
-            {
-                Adicionar(item);
-            }
-        }
-
-        public void Remover(T item)
+        public void Remover(ContaCorrente item)
         {
             int indiceItem = -1;
 
             for (int i = 0; i < _proximaPosicao; i++)
             {
-                T itemAtual = _itens[i];
+                ContaCorrente itemAtual = _itens[i];
 
                 if (itemAtual.Equals(item))
                 {
@@ -63,22 +50,16 @@ namespace ByteBank.SistemaAgencia
                 }
             }
 
-            // Quero remover o 0x01
-
-            // [0x03] [0x04] [0x05] [null]
-            //                       ^
-            //                        ` _proximaPosicao
-
             for (int i = indiceItem; i < _proximaPosicao - 1; i++)
             {
                 _itens[i] = _itens[i + 1];
             }
 
             _proximaPosicao--;
-            //_itens[_proximaPosicao] = null;
+            _itens[_proximaPosicao] = null;
         }
 
-        public T GetItemNoIndice(int indice)
+        public ContaCorrente GetItemNoIndice(int indice)
         {
             if (indice < 0 || indice >= _proximaPosicao)
             {
@@ -87,6 +68,15 @@ namespace ByteBank.SistemaAgencia
 
             return _itens[indice];
         }
+
+        //public void EscreverListaNaTela()
+        //{
+        //    for (int i = 0; i < _proximaPosicao; i++)
+        //    {
+        //        ContaCorrente conta = _itens[i];
+        //        Console.WriteLine($"Conta no indice {i}: numero {conta.Numero} {conta.Agencia}");
+        //    }
+        //}
 
         private void VerificarCapacidade(int tamanhoNecessario)
         {
@@ -101,25 +91,49 @@ namespace ByteBank.SistemaAgencia
                 novoTamanho = tamanhoNecessario;
             }
 
-            // Console.WriteLine("Aumentando capacidade da lista!");
+            //Console.WriteLine("Aumentando capacidade da Lista!");
 
-            T[] novoArray = new T[novoTamanho];
+            // Criando um novo Array
+            ContaCorrente[] novoArray = new ContaCorrente[novoTamanho];
 
+            // Copiar itens do array antigo para o novo
             for (int indice = 0; indice < _itens.Length; indice++)
             {
                 novoArray[indice] = _itens[indice];
-                // Console.WriteLine(".");
+                //Console.WriteLine(".");
             }
 
             _itens = novoArray;
         }
 
-        public T this[int indice]
+        //public ContaCorrente this[string texto]
+        //{
+        //    get
+        //    {
+        //        return null;
+        //    }
+        //}
+
+        public ContaCorrente this[int indice] // indexador
         {
             get
             {
                 return GetItemNoIndice(indice);
             }
         }
+        //public void AdicionarVarios(params ContaCorrente[] itens)
+        //{
+
+        //}
+        public void AdicionarVarios( params ContaCorrente[] itens)
+        {
+            foreach (ContaCorrente conta in itens)
+            {
+                Adicionar(conta);
+            }
+        }
+
+        
+
     }
 }

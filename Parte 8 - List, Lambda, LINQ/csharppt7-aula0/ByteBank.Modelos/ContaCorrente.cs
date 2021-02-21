@@ -116,14 +116,13 @@ namespace ByteBank.Modelos
         {
             ContaCorrente outraConta = obj as ContaCorrente;
 
-            if(outraConta == null)
+            if (outraConta == null)
             {
                 return false;
             }
 
             return Numero == outraConta.Numero && Agencia == outraConta.Agencia;
         }
-
     }
 
 }

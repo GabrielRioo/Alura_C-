@@ -25,27 +25,13 @@ namespace ByteBank.SistemaAgencia
             _proximaPosicao = 0;
         }
 
-        public void MeuMetodo(string texto = "texti padrao", int numero = 5)
-        {
-
-        }
-
         public void Adicionar(object item)
         {
             VerificarCapacidade(_proximaPosicao + 1);
 
-            // Console.WriteLine($"Adicionando item na posição {_proximaPosicao}");
-
+            //Console.WriteLine($"Adicionando item na posição: {_proximaPosicao}");
             _itens[_proximaPosicao] = item;
             _proximaPosicao++;
-        }
-
-        public void AdicionarVarios(params object[] itens)
-        {
-            foreach (object item in itens)
-            {
-                Adicionar(item);
-            }
         }
 
         public void Remover(object item)
@@ -62,12 +48,6 @@ namespace ByteBank.SistemaAgencia
                     break;
                 }
             }
-
-            // Quero remover o 0x01
-
-            // [0x03] [0x04] [0x05] [null]
-            //                       ^
-            //                        ` _proximaPosicao
 
             for (int i = indiceItem; i < _proximaPosicao - 1; i++)
             {
@@ -88,6 +68,15 @@ namespace ByteBank.SistemaAgencia
             return _itens[indice];
         }
 
+        //public void EscreverListaNaTela()
+        //{
+        //    for (int i = 0; i < _proximaPosicao; i++)
+        //    {
+        //        object conta = _itens[i];
+        //        Console.WriteLine($"Conta no indice {i}: numero {conta.Numero} {conta.Agencia}");
+        //    }
+        //}
+
         private void VerificarCapacidade(int tamanhoNecessario)
         {
             if (_itens.Length >= tamanhoNecessario)
@@ -101,24 +90,45 @@ namespace ByteBank.SistemaAgencia
                 novoTamanho = tamanhoNecessario;
             }
 
-            // Console.WriteLine("Aumentando capacidade da lista!");
+            //Console.WriteLine("Aumentando capacidade da Lista!");
 
+            // Criando um novo Array
             object[] novoArray = new object[novoTamanho];
 
+            // Copiar itens do array antigo para o novo
             for (int indice = 0; indice < _itens.Length; indice++)
             {
                 novoArray[indice] = _itens[indice];
-                // Console.WriteLine(".");
+                //Console.WriteLine(".");
             }
 
             _itens = novoArray;
         }
 
-        public object this[int indice]
+        //public object this[string texto]
+        //{
+        //    get
+        //    {
+        //        return null;
+        //    }
+        //}
+
+        public object this[int indice] // indexador
         {
             get
             {
                 return GetItemNoIndice(indice);
+            }
+        }
+        //public void AdicionarVarios(params object[] itens)
+        //{
+
+        //}
+        public void AdicionarVarios(params object[] itens)
+        {
+            foreach (object item in itens)
+            {
+                Adicionar(item);
             }
         }
     }
