@@ -25,6 +25,7 @@ namespace ByteBank.SistemaAgencia
             //ListExtencoes.AdicionarVarios(idades, 5, 6, 7, 8);
 
             idades.AdicionarVarios(10, 20, 30, 40);
+            idades.AdicionarVarios(50, 60, 70, 80);
 
             //1.EscreverNaTela();
             //"Teste método de extensão".EscreverNaTela();
