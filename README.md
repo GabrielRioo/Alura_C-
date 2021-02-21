@@ -47,6 +47,9 @@
       * Para alterar metodos com dois parametros opcionais: `lista.MeuMetodo(saldo: 200)`
    * `Indexador`:
       * `public ContaCorrente this[int indice] { get { return null } }`
+   * Passando multiplos argumentos(parametros)
+      * `params`: `public void AdicionarVarios( params ContaCorrente[] itens)`
+   * Nomear Parametros: `Adicionar(item: 10)`
    
 * OBJETO:
    * Com uma classe, tem a possibilidade de representa-la em diversas partes do codigo
@@ -131,3 +134,4 @@
        * padrao: `"[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]"`
        * regex: `[0123456789] &[a-z]` & `[0-9]` & `[0-9]{4}` = 4 vezes
        * `IsMatch()` - retorna se é true ou false
+    * Tipos Genericos: `public class Lista<T>`
