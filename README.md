@@ -55,11 +55,19 @@
       * `.Remove()`
       * `.Count` = tamanho da lista
       * `.AddRange(new int[] { 1, 2, 3, 4, 5 });`
+      * `.Sort()` - ordena em ordem crescente.
+         * `IComparable`: comparra dois valores de um objeto
+         * `IComparer`: `x.Agencia.CompareTo(y.Agencia);`
+            * Retorna Negativo quando a instacia precede obj;
+            * Retorna zero quando nossa instancia e obj forem equivalentes;
+            * Retorna positivo diferente de zero quando precedencia for de objj;
    * **Metodo de Extenção:**
       * `public static void AdicionarVarios(this List<int> listaDeInteiros, params int[] itens)` - Uso do This
       * Ao ser feito isso, esse metodo podera ser instaciado no main
    * **Metodo de Extenção Generico**:
       * `public static void AdicionarVarios<T> (this List<T> lista, params T[] itens)` : Informar o `<T>` no metodo ao inves de ser na classe
+  
+   
 
 
 * OBJETO:
