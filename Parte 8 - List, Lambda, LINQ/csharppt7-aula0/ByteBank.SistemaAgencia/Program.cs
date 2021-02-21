@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
+using ByteBank.SistemaAgencia.Comparadores;
 using ByteBank.SistemaAgencia.Extencoes;
 
 namespace ByteBank.SistemaAgencia
@@ -13,7 +14,25 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            List<int> idades = new List<int>();
+            var contas = new List<ContaCorrente>() {
+                new ContaCorrente(345, 789452),
+                new ContaCorrente(375, 789454),
+                new ContaCorrente(365, 789453),
+                new ContaCorrente(385, 789455)
+            };
+
+            contas.Sort(new ComparadorContaCorrentePorAgencia());
+            foreach (var conta in contas)
+            {
+                Console.WriteLine($"Conta numero: {conta.Numero}, ag {conta.Agencia}");
+            }
+
+            Console.ReadLine();
+        }
+        static void TestaSort()
+        {
+            var idades = new List<int>();
+
 
             idades.Add(5);
             idades.Add(50);
@@ -22,23 +41,13 @@ namespace ByteBank.SistemaAgencia
 
             idades.AddRange(new int[] { 1, 2, 3, 4, 5 });
 
-            //ListExtencoes.AdicionarVarios(idades, 5, 6, 7, 8);
+            idades.AdicionarVarios(45, 89, 12);
 
-            idades.AdicionarVarios(10, 20, 30, 40);
-            idades.AdicionarVarios(50, 60, 70, 80);
-
-            //1.EscreverNaTela();
-            //"Teste método de extensão".EscreverNaTela();
-            //ContaCorrente conta = new ContaCorrente(245, 34820);
-            //conta.EscreverNaTela(); // Console.WriteLine(conta);COPIAR
-
-            
+            idades.Sort();
             for (int i = 0; i < idades.Count; i++) // .Count é igual ao tamanho da Lista
             {
                 Console.WriteLine(idades[i]);
             }
-
-            Console.ReadLine();
         }
 
         static void TestaListaDeObject()
