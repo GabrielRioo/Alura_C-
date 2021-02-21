@@ -50,7 +50,18 @@
    * Passando multiplos argumentos(parametros)
       * `params`: `public void AdicionarVarios( params ContaCorrente[] itens)`
    * Nomear Parametros: `Adicionar(item: 10)`
-   
+   * `List`
+      * `.Add()`
+      * `.Remove()`
+      * `.Count` = tamanho da lista
+      * `.AddRange(new int[] { 1, 2, 3, 4, 5 });`
+   * **Metodo de Extenção:**
+      * `public static void AdicionarVarios(this List<int> listaDeInteiros, params int[] itens)` - Uso do This
+      * Ao ser feito isso, esse metodo podera ser instaciado no main
+   * **Metodo de Extenção Generico**:
+      * `public static void AdicionarVarios<T> (this List<T> lista, params T[] itens)` : Informar o `<T>` no metodo ao inves de ser na classe
+
+
 * OBJETO:
    * Com uma classe, tem a possibilidade de representa-la em diversas partes do codigo
    * O valo padrão pode ser alterado, atribuindo um valor a variavel de uma classe:
