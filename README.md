@@ -56,8 +56,8 @@
       * `.Count` = tamanho da lista
       * `.AddRange(new int[] { 1, 2, 3, 4, 5 });`
       * `.Sort()` - ordena em ordem crescente.
-         * `IComparable`: comparra dois valores de um objeto
-         * `IComparer`: `x.Agencia.CompareTo(y.Agencia);`
+         * `IComparable`: comparra dois valores de um objeto (parte 8)
+         * `IComparer`: `x.Agencia.CompareTo(y.Agencia);` (parte 8)
             * Retorna Negativo quando a instacia precede obj;
             * Retorna zero quando nossa instancia e obj forem equivalentes;
             * Retorna positivo diferente de zero quando precedencia for de objj;
@@ -154,3 +154,6 @@
        * regex: `[0123456789] &[a-z]` & `[0-9]` & `[0-9]{4}` = 4 vezes
        * `IsMatch()` - retorna se é true ou false
     * Tipos Genericos: `public class Lista<T>`
+    * **LINQ**
+       * `.OrderBy(conta => conta.Numero)` - ordenar
+       * `.Where(conta => conta != null)` - filtro
