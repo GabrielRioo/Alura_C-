@@ -31,11 +31,14 @@ namespace ByteBankImportacaoExportacao
         {
             var utf8 = new UTF8Encoding();
 
-            foreach (var meuByte in buffer)
-            {
-                Console.Write(meuByte);
-                Console.Write(" ");
-            }
+            var texto = utf8.GetString(buffer); //obtem uma string 
+            Console.Write(texto);
+
+            //foreach (var meuByte in buffer)
+            //{
+            //    Console.Write(meuByte);
+            //    Console.Write(" ");
+            //}
         }
     }
 } 
