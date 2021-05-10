@@ -39,6 +39,42 @@ namespace ByteBankImportacaoExportacao
 
         }
 
+        static void Exercicio01()
+        {
+            var arquivoOriginal = new FileStream("teste.txt", FileMode.Open);
+            var arquivoNovo = new FileStream("teste_copia.txt", FileMode.Create);
+            var buffer = new byte[1024];
+
+            using (arquivoOriginal)
+            using (arquivoNovo)
+            {
+                var bytesLidos = -1;
+                while (bytesLidos != 0)
+                {
+                    bytesLidos = arquivoOriginal.Read(buffer, 0, 1024);
+                    arquivoNovo.Write(buffer, 0, bytesLidos);
+                }
+            }
+
+            var rodape = Encoding.UTF8.GetBytes("Este documento é uma cópia do original");
+            arquivoNovo.Write(rodape, 0, rodape.Length);
+        }
+
+        static void TestaEscrita()
+        {
+            var caminhoArquivo = "teste.txt";
+
+            using (var fluxoArquivo = new FileStream(caminhoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoArquivo))
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    escritor.Write($"Linha {i}");
+                    escritor.Flush();
+                }
+            }
+        }
+
     }
 
 
