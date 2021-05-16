@@ -22,7 +22,7 @@ namespace ByteBankImportacaoExportacao
                     
                     fs.Write(buffer, 0, bytesLidos);
                     fs.Flush();
-
+ 
                     Console.WriteLine($"Bytes lidos da console: {bytesLidos}");
                 }
             }

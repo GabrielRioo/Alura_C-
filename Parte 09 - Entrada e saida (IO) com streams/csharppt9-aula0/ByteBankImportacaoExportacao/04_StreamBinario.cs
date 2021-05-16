@@ -33,6 +33,6 @@ namespace ByteBankImportacaoExportacao
 
                 Console.WriteLine($"{agencia}/{numeroConta} - {tirular}, {saldo}");
             }
-        }
+        }  
     }
 }
