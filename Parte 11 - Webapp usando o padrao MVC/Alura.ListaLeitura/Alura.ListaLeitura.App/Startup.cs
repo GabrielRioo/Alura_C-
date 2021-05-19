@@ -1,6 +1,8 @@
 ﻿using Alura.ListaLeitura.App.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -10,22 +12,36 @@ namespace Alura.ListaLeitura.App
     {
         public void Configure(IApplicationBuilder app)
         {
-            app.Run(Roteamento);
+            var builder = new RouteBuilder(app);
+            builder.MapRoute("livros/lidos", LivrosLidos);
+            builder.MapRoute("livros/paraLer", LivrosParaLer);
+            builder.MapRoute("livros/lendo", LivrosLendo);
+
+            var rotas = builder.Build();
+            app.UseRouter(rotas);
+
+            //app.Run(Roteamento);
+        }
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddRouting(); // serviço de roteamento do asp net core.
         }
 
         public Task Roteamento(HttpContext context)
         {
             var _repo = new LivroRepositorioCSV();
-            var caminhosAtendidos = new Dictionary<string, string>
+            var caminhosAtendidos = new Dictionary<string, RequestDelegate>
             {
-                { "/Livros/ParaLer", _repo.ParaLer.ToString() },
-                { "/Livros/Lendo", _repo.ParaLer.ToString() },
-                { "/Livros/Lidos", _repo.ParaLer.ToString() }
+                { "/Livros/ParaLer", LivrosParaLer },
+                { "/Livros/Lendo", LivrosLendo },
+                { "/Livros/Lidos", LivrosLidos }
             };
 
             if (caminhosAtendidos.ContainsKey(context.Request.Path))
             {
-                return context.Response.WriteAsync(caminhosAtendidos[context.Request.Path]);
+                var metodo = caminhosAtendidos[context.Request.Path];
+                return metodo.Invoke(context);
             }
 
             context.Response.StatusCode = 404;
@@ -37,5 +53,17 @@ namespace Alura.ListaLeitura.App
             var _repo = new LivroRepositorioCSV();
             return context.Response.WriteAsync(_repo.ParaLer.ToString());
         }
+        public Task LivrosLendo(HttpContext context)
+        {
+            var _repo = new LivroRepositorioCSV();
+            return context.Response.WriteAsync(_repo.Lendo.ToString());
+        }
+
+        public Task LivrosLidos(HttpContext context)
+        {
+            var _repo = new LivroRepositorioCSV();
+            return context.Response.WriteAsync(_repo.Lidos.ToString());
+        }
+
     }
 }
