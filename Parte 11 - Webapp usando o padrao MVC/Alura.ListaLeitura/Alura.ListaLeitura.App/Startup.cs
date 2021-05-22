@@ -1,9 +1,12 @@
-﻿using Alura.ListaLeitura.App.Repositorio;
+﻿using Alura.ListaLeitura.App.Negocio;
+using Alura.ListaLeitura.App.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App
@@ -13,14 +16,41 @@ namespace Alura.ListaLeitura.App
         public void Configure(IApplicationBuilder app)
         {
             var builder = new RouteBuilder(app);
-            builder.MapRoute("livros/lidos", LivrosLidos);
-            builder.MapRoute("livros/paraLer", LivrosParaLer);
-            builder.MapRoute("livros/lendo", LivrosLendo);
-
+            builder.MapRoute("Livros/Lidos", LivrosLidos);
+            builder.MapRoute("Livros/ParaLer", LivrosParaLer);
+            builder.MapRoute("Livros/Lendo", LivrosLendo);
+            builder.MapRoute("Livros/NovoLivro/{nome}/{autor}", NovoLivroParaLer); // rota com template usando dois seguimentos
+            builder.MapRoute("Livros/Detalhes/{id}", ExibeDetalhes);
+            
             var rotas = builder.Build();
             app.UseRouter(rotas);
 
             //app.Run(Roteamento);
+        }
+
+        public Task ExibeDetalhes(HttpContext context)
+        {
+            var id = Convert.ToInt32(context.GetRouteValue("id"));
+            var repo = new LivroRepositorioCSV();
+            var livro = repo.Todos.First(l => l.Id == id);
+
+            return context.Response.WriteAsync(livro.Detalhes());
+        }
+
+        // adiciona um novo livro na lista de livros para ler
+        public Task NovoLivroParaLer(HttpContext context)
+        {
+            var livro = new Livro()
+            {
+                // pega o valor do endpoint "nome" e "autor"
+                Titulo = context.GetRouteValue("nome").ToString(), 
+                Autor = context.GetRouteValue("autor").ToString()
+            };
+
+            var repo = new LivroRepositorioCSV();
+            repo.Incluir(livro);
+
+            return context.Response.WriteAsync("Livro foi adicionado com sucesso");
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -28,6 +58,8 @@ namespace Alura.ListaLeitura.App
             services.AddRouting(); // serviço de roteamento do asp net core.
         }
 
+
+        // Roteamento mais rudimentar, usando dicionario.
         public Task Roteamento(HttpContext context)
         {
             var _repo = new LivroRepositorioCSV();
