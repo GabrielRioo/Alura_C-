@@ -11,3 +11,17 @@ C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.Li
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.deps.json
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.json
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.dev.json
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csprojAssemblyReference.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfoInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfo.cs
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csproj.CoreCompileInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\para-ler.html
