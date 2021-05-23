@@ -20,12 +20,43 @@ namespace Alura.ListaLeitura.App
             builder.MapRoute("Livros/ParaLer", LivrosParaLer);
             builder.MapRoute("Livros/Lendo", LivrosLendo);
             builder.MapRoute("Livros/NovoLivro/{nome}/{autor}", NovoLivroParaLer); // rota com template usando dois seguimentos
-            builder.MapRoute("Livros/Detalhes/{id}", ExibeDetalhes);
-            
+            builder.MapRoute("Livros/Detalhes/{id:int}", ExibeDetalhes); // adicionando uma constraint, restrição de tipo.
+            builder.MapRoute("Cadastro/NovoLivro", ExibeFormulario);
+            builder.MapRoute("Cadastro/Incluir", ProcessaFormulario);
+
             var rotas = builder.Build();
             app.UseRouter(rotas);
 
             //app.Run(Roteamento);
+        }
+
+        private Task ProcessaFormulario(HttpContext context)
+        {
+            var livro = new Livro()
+            {
+                // pega o valor do query params "nome" e "autor"
+                Titulo = context.Request.Query["titulo"].First(),
+                Autor = context.Request.Query["autor"].First()
+            };
+
+            var repo = new LivroRepositorioCSV();
+            repo.Incluir(livro);
+
+            return context.Response.WriteAsync("Livro foi adicionado com sucesso");
+        }
+
+        private Task ExibeFormulario(HttpContext context)
+        {
+            // action: especifica qual a rota cujo form vai ser enviado para processamento
+            var html = @"
+                    <html>
+                        <form action='/Cadastro/Incluir'>
+                            <input name='titulo'/> 
+                            <input name='autor'/>                        
+                            <button> Gravar </button>
+                         </form>
+                    </html>";
+            return context.Response.WriteAsync(html);
         }
 
         public Task ExibeDetalhes(HttpContext context)
@@ -43,7 +74,7 @@ namespace Alura.ListaLeitura.App
             var livro = new Livro()
             {
                 // pega o valor do endpoint "nome" e "autor"
-                Titulo = context.GetRouteValue("nome").ToString(), 
+                Titulo = context.GetRouteValue("nome").ToString(),
                 Autor = context.GetRouteValue("autor").ToString()
             };
 
