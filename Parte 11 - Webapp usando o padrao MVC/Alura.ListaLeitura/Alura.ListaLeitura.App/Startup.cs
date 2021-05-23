@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -35,8 +36,11 @@ namespace Alura.ListaLeitura.App
             var livro = new Livro()
             {
                 // pega o valor do query params "nome" e "autor"
-                Titulo = context.Request.Query["titulo"].First(),
-                Autor = context.Request.Query["autor"].First()
+                //Titulo = context.Request.Query["titulo"].First(),
+                //Autor = context.Request.Query["autor"].First()
+
+                Titulo = context.Request.Form["titulo"].First(),
+                Autor = context.Request.Form["autor"].First()
             };
 
             var repo = new LivroRepositorioCSV();
@@ -45,18 +49,20 @@ namespace Alura.ListaLeitura.App
             return context.Response.WriteAsync("Livro foi adicionado com sucesso");
         }
 
-        private Task ExibeFormulario(HttpContext context)
+        public Task ExibeFormulario(HttpContext context)
         {
             // action: especifica qual a rota cujo form vai ser enviado para processamento
-            var html = @"
-                    <html>
-                        <form action='/Cadastro/Incluir'>
-                            <input name='titulo'/> 
-                            <input name='autor'/>                        
-                            <button> Gravar </button>
-                         </form>
-                    </html>";
+            var html = CarregaArquivoHtml("formulario");
             return context.Response.WriteAsync(html);
+        }
+
+        public string CarregaArquivoHtml(string nomeArquivo)
+        {
+            var nomeCompletoArquivo = $"HTML/{nomeArquivo}.html";
+            using (var arquivo = File.OpenText(nomeCompletoArquivo))
+            {
+                return arquivo.ReadToEnd();
+            }
         }
 
         public Task ExibeDetalhes(HttpContext context)

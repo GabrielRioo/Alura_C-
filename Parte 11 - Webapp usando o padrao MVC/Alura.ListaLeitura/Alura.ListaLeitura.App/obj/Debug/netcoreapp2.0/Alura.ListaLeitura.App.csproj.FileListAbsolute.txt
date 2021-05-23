@@ -10,3 +10,4 @@ C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.Li
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 11 - Webapp usando o padrao MVC\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
