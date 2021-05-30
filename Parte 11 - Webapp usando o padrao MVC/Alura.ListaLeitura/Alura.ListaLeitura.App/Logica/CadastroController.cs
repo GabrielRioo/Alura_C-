@@ -14,22 +14,23 @@ namespace Alura.ListaLeitura.App.Logica
 {
 	public class CadastroController
 	{
-		public static Task Incluir(HttpContext context)
+		// adiciona um novo livro na lista de livros para ler
+		public string Incluir(Livro livro)
 		{
-			var livro = new Livro()
-			{
-				// pega o valor do query params "nome" e "autor"
-				//Titulo = context.Request.Query["titulo"].First(),
-				//Autor = context.Request.Query["autor"].First()
+			//var livro = new Livro()
+			//{
+			//	// pega o valor do query params "nome" e "autor"
+			//	//Titulo = context.Request.Query["titulo"].First(),
+			//	//Autor = context.Request.Query["autor"].First()
 
-				Titulo = context.Request.Form["titulo"].First(),
-				Autor = context.Request.Form["autor"].First()
-			};
+			//	Titulo = context.Request.Form["titulo"].First(),
+			//	Autor = context.Request.Form["autor"].First()
+			//};
 
 			var repo = new LivroRepositorioCSV();
 			repo.Incluir(livro);
 
-			return context.Response.WriteAsync("Livro foi adicionado com sucesso");
+			return "Livro foi adicionado com sucesso";
 		}
 
 		public static Task ExibeFormulario(HttpContext context)
@@ -40,20 +41,20 @@ namespace Alura.ListaLeitura.App.Logica
 		}
 
 		// adiciona um novo livro na lista de livros para ler
-		public static Task NovoLivro(HttpContext context)
-		{
-			var livro = new Livro()
-			{
-				// pega o valor do endpoint "nome" e "autor"
-				Titulo = context.GetRouteValue("nome").ToString(),
-				Autor = context.GetRouteValue("autor").ToString()
-			};
+		//public string NovoLivro(Livro livro)
+		//{
+		//	//var livro = new Livro()
+		//	//{
+		//	//	// pega o valor do endpoint "nome" e "autor"
+		//	//	Titulo = context.GetRouteValue("nome").ToString(),
+		//	//	Autor = context.GetRouteValue("autor").ToString()
+		//	//};
 
-			var repo = new LivroRepositorioCSV();
-			repo.Incluir(livro);
+		//	var repo = new LivroRepositorioCSV();
+		//	repo.Incluir(livro);
 
-			return context.Response.WriteAsync("Livro foi adicionado com sucesso");
-		}
+		//	return "Livro foi adicionado com sucesso";
+		//}
 
 		
 	}
