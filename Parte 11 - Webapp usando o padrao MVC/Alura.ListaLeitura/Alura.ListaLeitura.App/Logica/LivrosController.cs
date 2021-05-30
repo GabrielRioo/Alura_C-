@@ -1,20 +1,17 @@
 ﻿using Alura.ListaLeitura.App.HTML;
 using Alura.ListaLeitura.App.Negocio;
 using Alura.ListaLeitura.App.Repositorio;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App.Logica
 {
-	public class LivrosController
+    public class LivrosController : Controller
 	{
-		public string Detalhes(int id)
+        public IEnumerable<Livro> Livros { get; set; }
+        public string Detalhes(int id)
 		{
 			var repo = new LivroRepositorioCSV();
 			var livro = repo.Todos.First(l => l.Id == id);
@@ -25,30 +22,37 @@ namespace Alura.ListaLeitura.App.Logica
 		public static string CarregaLista(IEnumerable<Livro> livros)
 		{
 			var conteudoArquivo = HtmlUtils.CarregaArquivoHtml("para-ler");
-			foreach (var livro in livros)
-			{
-				conteudoArquivo = conteudoArquivo.Replace("#NOVO-LIVRO#", $"<li>{livro.Titulo} - {livro.Autor}</li>#NOVO-LIVRO#");
-			}
+			
 			return conteudoArquivo.Replace("#NOVO-LIVRO#", "");
 		}
 
-		public static Task Lidos(HttpContext context)
+		public IActionResult Lidos()
 		{
 			var _repo = new LivroRepositorioCSV();
-			var html = CarregaLista(_repo.ParaLer.Livros);
+			ViewBag.Livros = _repo.Lidos.Livros;
 
-			return context.Response.WriteAsync(html);
+			//var html = new ViewResult { ViewName = "" };
+			//var html = CarregaLista(_repo.ParaLer.Livros);
+
+			return View("lista");
 		}
-		public static Task Lendo(HttpContext context)
+		public IActionResult Lendo()
 		{
 			var _repo = new LivroRepositorioCSV();
-			return context.Response.WriteAsync(_repo.Lendo.ToString());
+			ViewBag.Livros = _repo.Lendo.Livros;
+
+			//var html = new ViewResult { ViewName = "lista" };
+
+			return View("lista");
 		}
 
-		public static Task ParaLer(HttpContext context)
+		public IActionResult ParaLer()
 		{
 			var _repo = new LivroRepositorioCSV();
-			return context.Response.WriteAsync(_repo.Lidos.ToString());
+			ViewBag.Livros = _repo.ParaLer.Livros;
+
+			//var html = new ViewResult { ViewName = "lista" };
+			return View("lista");
 		}
 
 		public string Teste()
