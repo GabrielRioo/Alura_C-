@@ -1,0 +1,23 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\appsettings.Development.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\appsettings.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\ref\Parte 12 - ASP NET Core parte 1 - E-commerce.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\bin\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\staticwebassets\Parte 12 - ASP NET Core parte 1 - E-commerce.StaticWebAssets.Manifest.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\staticwebassets\Parte 12 - ASP NET Core parte 1 - E-commerce.StaticWebAssets.xml
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\scopedcss\bundle\Parte 12 - ASP NET Core parte 1 - E-commerce.styles.css
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.RazorTargetAssemblyInfo.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\ref\Parte 12 - ASP NET Core parte 1 - E-commerce.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\obj\Debug\net5.0\Parte 12 - ASP NET Core parte 1 - E-commerce.genruntimeconfig.cache
