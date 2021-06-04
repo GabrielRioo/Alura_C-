@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Parte_12___ASP_NET_Core_parte_1___E_commerce
 {
-    public class Relatorio
+    public class Relatorio : IRelatorio
     {
-        private readonly Catalogo catalogo;
+        private readonly ICatalogo catalogo;
 
-        public Relatorio(Catalogo catalogo)
+        public Relatorio(ICatalogo catalogo)
         {
             this.catalogo = catalogo;
         }
