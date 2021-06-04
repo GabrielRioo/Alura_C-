@@ -26,13 +26,16 @@ namespace Parte_12___ASP_NET_Core_parte_1___E_commerce
                 app.UseDeveloperExceptionPage();
             }
 
+            Catalogo catalogo = new Catalogo();
+            Relatorio relatorio = new Relatorio(catalogo);
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Ola Mundo!");
+                    await relatorio.Imprimir(context);
                 });
             });
         }
