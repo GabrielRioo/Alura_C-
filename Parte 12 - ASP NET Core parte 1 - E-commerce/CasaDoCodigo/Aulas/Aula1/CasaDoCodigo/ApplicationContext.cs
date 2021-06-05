@@ -13,11 +13,11 @@ namespace CasaDoCodigo
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) // quando estiver criado o modelo, vai acessar esse metodo
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Produto>().HasKey(t => t.Id);
+            modelBuilder.Entity<Produto>().HasKey(t => t.Id); // registra uma classe do nosso modelo para fazer o mapeamento
         }
     }
 }
