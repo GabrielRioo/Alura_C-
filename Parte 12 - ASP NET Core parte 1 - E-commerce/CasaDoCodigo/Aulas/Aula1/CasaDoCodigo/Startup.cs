@@ -24,7 +24,7 @@ namespace CasaDoCodigo
         {
             services.AddMvc();
 
-            string connectionString = Configuration.GetConnectionString("Default");
+            string connectionString = Configuration.GetConnectionString("Default"); // pega a configuração do appsettings
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
         }
 
