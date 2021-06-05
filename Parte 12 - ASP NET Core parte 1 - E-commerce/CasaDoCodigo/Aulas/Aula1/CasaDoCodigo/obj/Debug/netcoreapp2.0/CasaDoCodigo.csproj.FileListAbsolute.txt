@@ -1,0 +1,15 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.genruntimeconfig.cache
