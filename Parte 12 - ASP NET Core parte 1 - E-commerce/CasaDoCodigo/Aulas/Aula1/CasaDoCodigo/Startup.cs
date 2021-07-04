@@ -26,6 +26,8 @@ namespace CasaDoCodigo
 
             string connectionString = Configuration.GetConnectionString("Default"); // pega a configuração do appsettings
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
+
+            services.AddTransient<IDataService, DataService>(); // adiciona uma instancia temporaria
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +52,9 @@ namespace CasaDoCodigo
                     template: "{controller=Pedido}/{action=Carrossel}/{id?}");
             });
 
-            serviceProvider.GetService<ApplicationContext>().Database.EnsureCreated(); // gera o banco de dados caso ele nao exista
+            serviceProvider
+                .GetService<IDataService>()
+                .InicializaDb();
         }
     }
 }

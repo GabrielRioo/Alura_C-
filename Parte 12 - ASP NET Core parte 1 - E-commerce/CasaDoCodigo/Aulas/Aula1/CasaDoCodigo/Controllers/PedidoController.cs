@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasaDoCodigo.Controllers
 {
-    public class Pedido : Controller
+    public class PedidoController : Controller
     {
         public IActionResult Carrossel()
         {

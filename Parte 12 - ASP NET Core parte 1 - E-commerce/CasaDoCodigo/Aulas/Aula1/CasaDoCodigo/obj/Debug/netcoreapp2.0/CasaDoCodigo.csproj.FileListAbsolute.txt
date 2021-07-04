@@ -13,3 +13,4 @@ C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\C
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
 C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 12 - ASP NET Core parte 1 - E-commerce\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\livros.json
