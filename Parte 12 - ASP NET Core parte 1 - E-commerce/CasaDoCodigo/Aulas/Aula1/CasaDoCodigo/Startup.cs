@@ -21,9 +21,13 @@ namespace CasaDoCodigo
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services) // adiciona os serviços a aplicação
         {
             services.AddMvc();
+
+            services.AddDistributedMemoryCache();
+            services.AddSession();
+
 
             string connectionString = Configuration.GetConnectionString("Default"); // pega a configuração do appsettings
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
@@ -36,7 +40,7 @@ namespace CasaDoCodigo
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider) // utiliza os serviços
         {
             if (env.IsDevelopment())
             {
@@ -49,6 +53,7 @@ namespace CasaDoCodigo
             }
 
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
