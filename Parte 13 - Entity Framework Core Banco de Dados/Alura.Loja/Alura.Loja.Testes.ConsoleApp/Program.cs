@@ -25,15 +25,33 @@ namespace Alura.Loja.Testes.ConsoleApp
             //compra.Produto = paoFrances;
             //compra.Preco = paoFrances.Preco_Unitario * compra.Quantidade;
 
+            var p1 = new Produto() { 
+                Nome = "Suco de Laranja", 
+                Categoria = "Bebidas", 
+                Preco_Unitario = 8.79,
+                Unidade = "Litros"
+            };
+            var p2 = new Produto() {
+                Nome = "Café",
+                Categoria = "Bebidas",
+                Preco_Unitario = 12.45,
+                Unidade = "Gramas"
+            };
+            var p3 = new Produto() {
+                Nome = "Macarrao",
+                Categoria = "Alimentos",
+                Preco_Unitario = 4.23,
+                Unidade = "Granas"
+            };
+
             var promocaoDePascoa = new Promocao();
             promocaoDePascoa.Descricao = "Páscoa Feliz";
             promocaoDePascoa.DataInicio = DateTime.Now;
             promocaoDePascoa.DataTermino = DateTime.Now.AddMonths(3);
 
-            //promocaoDePascoa.Produtos.Add(new Produto());
-            //promocaoDePascoa.Produtos.Add(new Produto());
-            //promocaoDePascoa.Produtos.Add(new Produto());
-
+            promocaoDePascoa.IncluiProduto(p1);
+            promocaoDePascoa.IncluiProduto(p2);
+            promocaoDePascoa.IncluiProduto(p3);
 
             using (var contexto = new LojaContext())
             {
@@ -41,6 +59,8 @@ namespace Alura.Loja.Testes.ConsoleApp
                 var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
                 loggerFactory.AddProvider(SqlLoggerProvider.Create());
 
+                contexto.Promocoes.Add(promocaoDePascoa);
+                contexto.SaveChanges();
             }
         }
     }
