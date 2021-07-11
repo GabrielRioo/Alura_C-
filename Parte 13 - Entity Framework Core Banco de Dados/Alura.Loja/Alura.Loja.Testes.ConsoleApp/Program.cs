@@ -11,11 +11,31 @@ namespace Alura.Loja.Testes.ConsoleApp
         static void Main(string[] args)
         {
             //GravarUsandoAdoNet();
+            //AdicionarProduto();
+            //ConsultarProduto();
+            //ExcluirProdutos();
+            //ConsultarProduto();
+            AtualizarProduto();
+
+        }
+
+        private static void AtualizarProduto()
+        {
+            // Incluir um produto
             AdicionarProduto();
             ConsultarProduto();
-            ExcluirProdutos();
-            ConsultarProduto();
 
+            // Atualizar o produto
+            using (var contexto = new LojaContext())
+            {
+                Produto primeirro_produto = contexto.Produtos.First();
+                primeirro_produto.Nome = "Livro 1 - Editado";
+
+                contexto.Produtos.Update(primeirro_produto);
+                contexto.SaveChanges();
+            }
+            
+            ConsultarProduto();
         }
 
         private static void ExcluirProdutos()
