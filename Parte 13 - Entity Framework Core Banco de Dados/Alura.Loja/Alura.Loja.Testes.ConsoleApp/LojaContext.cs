@@ -16,6 +16,7 @@ namespace Alura.Loja.Testes.ConsoleApp
         // DbSet - representa o conjunto de objetos da classe
         // Produtos = nome da tabela no banco de dados
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Compra> Compras { get; set; }
 
 
 
