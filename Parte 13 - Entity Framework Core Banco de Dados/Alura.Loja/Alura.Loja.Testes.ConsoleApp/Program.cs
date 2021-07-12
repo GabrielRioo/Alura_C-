@@ -13,31 +13,42 @@ namespace Alura.Loja.Testes.ConsoleApp
     {
         static void Main(string[] args)
         {
-            //// compra de 6 paes franceses
-            //var paoFrances = new Produto();
-            //paoFrances.Nome = "Pão Frances";
-            //paoFrances.Preco_Unitario = 0.40;
-            //paoFrances.Unidade = "Unidade";
-            //paoFrances.Categoria = "Padaria";
+            var fulano = new Cliente();
+            fulano.Nome = "Fulano de Tal";
+            fulano.EnderecoDeEntrega = new Endereco()
+            {
+                Numero = 12,
+                Logradouro = "Rua dos Invalidos",
+                Complemente = "sobrado",
+                Bairro = "Centro",
+                Cidade = "Rio de Janeiro"
+            };
 
-            //var compra = new Compra();
-            //compra.Quantidade = 6;
-            //compra.Produto = paoFrances;
-            //compra.Preco = paoFrances.Preco_Unitario * compra.Quantidade;
+            using(var contexto = new LojaContext())
+            {
+                contexto.Clientes.Add(fulano);
+                contexto.SaveChanges();
+            }
+        }
 
-            var p1 = new Produto() { 
-                Nome = "Suco de Laranja", 
-                Categoria = "Bebidas", 
+        private static void MuitoParaMuitos()
+        {
+            var p1 = new Produto()
+            {
+                Nome = "Suco de Laranja",
+                Categoria = "Bebidas",
                 Preco_Unitario = 8.79,
                 Unidade = "Litros"
             };
-            var p2 = new Produto() {
+            var p2 = new Produto()
+            {
                 Nome = "Café",
                 Categoria = "Bebidas",
                 Preco_Unitario = 12.45,
                 Unidade = "Gramas"
             };
-            var p3 = new Produto() {
+            var p3 = new Produto()
+            {
                 Nome = "Macarrao",
                 Categoria = "Alimentos",
                 Preco_Unitario = 4.23,
@@ -68,3 +79,18 @@ namespace Alura.Loja.Testes.ConsoleApp
         }
     }
 }
+
+
+//// compra de 6 paes franceses
+//var paoFrances = new Produto();
+//paoFrances.Nome = "Pão Frances";
+//paoFrances.Preco_Unitario = 0.40;
+//paoFrances.Unidade = "Unidade";
+//paoFrances.Categoria = "Padaria";
+
+//var compra = new Compra();
+//compra.Quantidade = 6;
+//compra.Produto = paoFrances;
+//compra.Preco = paoFrances.Preco_Unitario * compra.Quantidade;
+
+
