@@ -26,6 +26,18 @@ namespace Alura.Loja.Testes.ConsoleApp
                 .Entity<PromocaoProduto>()
                 .HasKey(pp => new { pp.PromocaoId, pp.ProdutoId }); // chave primaria composta
 
+            modelBuilder
+                .Entity<Endereco>()
+                .ToTable("Enderecos"); // nomeia a tabela para Endereco, ao inves de deixar o Entity nomear para Endereco
+
+            modelBuilder
+                .Entity<Endereco>()
+                .Property<int>("ClienteId");
+
+            modelBuilder
+                .Entity<Endereco>()
+                .HasKey("ClienteId");
+
             base.OnModelCreating(modelBuilder);
         }
 
