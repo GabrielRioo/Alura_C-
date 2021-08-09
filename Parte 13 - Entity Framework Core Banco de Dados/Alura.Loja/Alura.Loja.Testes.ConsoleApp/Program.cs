@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,6 +14,54 @@ namespace Alura.Loja.Testes.ConsoleApp
     {
         static void Main(string[] args)
         {
+            using (var contexto2 = new LojaContext())
+            {
+                var serviceProvider = contexto2.GetInfrastructure<IServiceProvider>();
+                var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
+                loggerFactory.AddProvider(SqlLoggerProvider.Create());
+
+                var promocao = contexto2
+                    .Promocoes
+                    .Include(p => p.Produtos)
+                    .ThenInclude(pp => pp.Produto)
+                    .FirstOrDefault();
+
+                Console.WriteLine("\n Mostrando os produtos da promocao....");
+                foreach (var item in promocao.Produtos)
+                {
+                    Console.WriteLine(item.Produto);
+                }
+            }
+        }
+
+        private static void IncluirPromocao()
+        {
+            using (var contexto = new LojaContext())
+            {
+                var serviceProvider = contexto.GetInfrastructure<IServiceProvider>();
+                var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
+                loggerFactory.AddProvider(SqlLoggerProvider.Create());
+
+                var promocao = new Promocao();
+                promocao.Descricao = "Queima total janeiro 2021";
+                promocao.DataInicio = new DateTime(2021, 1, 1);
+                promocao.DataTermino = new DateTime(2021, 1, 31);
+
+                var produtos = contexto.Produtos.Where(p => p.Categoria == "Bebidas").ToList();
+
+                foreach (var item in produtos)
+                {
+                    promocao.IncluiProduto(item);
+                }
+
+                contexto.Promocoes.Add(promocao);
+
+                contexto.SaveChanges();
+            }
+        }
+
+        private static void UmPraUm()
+        {
             var fulano = new Cliente();
             fulano.Nome = "Fulano de Tal";
             fulano.EnderecoDeEntrega = new Endereco()
@@ -24,7 +73,7 @@ namespace Alura.Loja.Testes.ConsoleApp
                 Cidade = "Rio de Janeiro"
             };
 
-            using(var contexto = new LojaContext())
+            using (var contexto = new LojaContext())
             {
                 var serviceProvider = contexto.GetInfrastructure<IServiceProvider>();
                 var loggerFactory = serviceProvider.GetService<ILoggerFactory>();
