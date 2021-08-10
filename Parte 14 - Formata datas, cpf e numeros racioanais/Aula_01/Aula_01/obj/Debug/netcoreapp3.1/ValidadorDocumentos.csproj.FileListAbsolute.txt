@@ -1,0 +1,16 @@
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.exe
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.deps.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.runtimeconfig.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.runtimeconfig.dev.json
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\ValidadorDocumentos.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.AssemblyInfoInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.AssemblyInfo.cs
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.csproj.CoreCompileInputs.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.pdb
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.genruntimeconfig.cache
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\Caelum.Stella.CSharp.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Gabrieltmp\GitHub\Alura_CSharp\Parte 14 - Formata datas, cpf e numeros racioanais\Aula_01\Aula_01\obj\Debug\netcoreapp3.1\ValidadorDocumentos.csproj.CopyComplete
