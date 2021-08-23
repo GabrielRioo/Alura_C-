@@ -1,18 +1,40 @@
-﻿function clickIncremento(btn) {
-    var linhaDoItem = $(btn).parents('[item-id]');
-    var itemId = $(linhaDoItem).attr('item-id');
-    var novaQtde = $(linhaDoItem).find('input').val();
-
-    var data = {
-        Id: itemId,
-        Quantidade: novaQtde,
+﻿class Carrinho {
+    clickIncremento(btn) {
+        let data = this.getData(btn);
+        data.Quantidade++;
+        this.postQuantidade(data);
     }
-    $.ajax({
-        url: '/pedido/updateQuantidade',
-        type: 'POST',
-        contentType: 'application/json',
-        data: JSON.stringify(data)
-    });
 
-    debugger;
+    clickDecremento(btn) {
+        let data = this.getData(btn);
+        data.Quantidade--;
+        this.postQuantidade(data);
+    }
+
+    updateQuantidade(input) {
+        let data = this.getData(input);
+        this.postQuantidade(data);
+    }
+
+    getData(elemento) {
+        var linhaDoItem = $(elemento).parents('[item-id]');
+        var itemId = $(linhaDoItem).attr('item-id');
+        var novaQtde = $(linhaDoItem).find('input').val();
+
+        return {
+            Id: itemId,
+            Quantidade: novaQtde,
+        };
+    }
+
+    postQuantidade(data) {
+        $.ajax({
+            url: '/pedido/updateQuantidade',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(data)
+        });
+    }
 }
+
+var carrinho = new Carrinho();
