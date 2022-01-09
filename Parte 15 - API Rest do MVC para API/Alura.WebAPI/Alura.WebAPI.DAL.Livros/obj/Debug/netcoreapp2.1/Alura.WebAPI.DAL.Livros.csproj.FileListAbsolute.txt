@@ -1,0 +1,13 @@
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.deps.json
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.AssemblyReference.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfoInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfo.cs
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CoreCompileInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CopyComplete
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb

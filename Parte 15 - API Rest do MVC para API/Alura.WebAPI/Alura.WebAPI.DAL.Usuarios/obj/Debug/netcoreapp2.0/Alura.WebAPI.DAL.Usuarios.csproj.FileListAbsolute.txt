@@ -1,0 +1,10 @@
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\bin\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.deps.json
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\bin\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\bin\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.pdb
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.csproj.AssemblyReference.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.AssemblyInfoInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.AssemblyInfo.cs
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.csproj.CoreCompileInputs.cache
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.dll
+D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Usuarios\obj\Debug\netcoreapp2.0\Alura.WebAPI.DAL.Usuarios.pdb
