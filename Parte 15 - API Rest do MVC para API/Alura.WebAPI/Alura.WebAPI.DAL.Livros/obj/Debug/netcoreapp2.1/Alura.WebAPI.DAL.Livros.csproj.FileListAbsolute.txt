@@ -8,6 +8,5 @@ D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebA
 D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfoInputs.cache
 D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfo.cs
 D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CoreCompileInputs.cache
-D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CopyComplete
 D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
 D:\Gabrieltmp\Github\Alura_CSharp\Parte 15 - API Rest do MVC para API\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb
