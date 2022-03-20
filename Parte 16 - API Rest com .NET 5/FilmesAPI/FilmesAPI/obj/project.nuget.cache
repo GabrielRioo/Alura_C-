@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pifdarXurqSbRLhp36wlxgmaGvYlUbVg2QCcIO1A+eBjqrgSEYwsvF/wf/xEEAkSEMNagxxLZh30fk7Jnnmk0g==",
+  "dgSpecHash": "9EoGNRs8L6QCiqJ7Wo3iGyGd6iZAlTjsAXYo5acniMrfn/QL/CBWCm0rDwhzfDqsSlYC4AJ6V3sQTAnHMhhTFA==",
   "success": true,
   "projectFilePath": "D:\\Gabrieltmp\\Github\\Alura_CSharp\\Parte 16 - API Rest com .NET 5\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,7 @@
     "C:\\Users\\Gabriel\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Gabriel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
-    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+    "C:\\Users\\Gabriel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }
